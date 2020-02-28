@@ -15,6 +15,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import com.eazypermissions.common.model.PermissionResult
 import com.eazypermissions.livedatapermission.PermissionManager
+import ru.sem.teplovision.BuildConfig
 import ru.sem.teplovision.R
 import ru.sem.teplovision.utils.ImageFilePath
 
@@ -171,7 +172,7 @@ abstract class BaseTakePhotoFragment: BaseFragment, PermissionManager.Permission
             if (photoFile != null) {
                 val photoURI = FileProvider.getUriForFile(
                     requireContext(),
-                    "ru.sem.teplovision.fileprovider",
+                    BuildConfig.APPLICATION_ID +".fileprovider",
                     photoFile
                 )
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI)

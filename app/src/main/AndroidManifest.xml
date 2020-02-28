@@ -16,6 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
         <activity android:name=".ui.photo.PhotoViewActivity"></activity>
         <activity android:name=".ui.main.MainActivity">
             <intent-filter>
@@ -27,7 +29,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="ru.sem.teplovision.fileprovider"
+            android:authorities="${applicationId}.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

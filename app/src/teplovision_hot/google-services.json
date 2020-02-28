@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "839816534586",
+    "firebase_url": "https://hot-teplovision.firebaseio.com",
+    "project_id": "hot-teplovision",
+    "storage_bucket": "hot-teplovision.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839816534586:android:cdfe0e8b94d8ee3eedb303",
+        "android_client_info": {
+          "package_name": "com.hot.teplovision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839816534586-rj6hlcu4b9685fods379me5uama7o17g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hot.teplovision",
+            "certificate_hash": "4f53c743176dcd4138060d9b77f5551b5d655091"
+          }
+        },
+        {
+          "client_id": "839816534586-61nnlvr24k3lvpfsp4v9ljus8f19fu5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEyROC02_xvLiFMPv4WQI64DBUDyawuwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839816534586-61nnlvr24k3lvpfsp4v9ljus8f19fu5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

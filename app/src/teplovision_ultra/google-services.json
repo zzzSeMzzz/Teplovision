@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "398893692027",
+    "firebase_url": "https://ultra-teplovision.firebaseio.com",
+    "project_id": "ultra-teplovision",
+    "storage_bucket": "ultra-teplovision.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398893692027:android:6c5181cf63f3c8c4d49ede",
+        "android_client_info": {
+          "package_name": "com.ultra.teplovision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398893692027-v9oiusdcl0ih7p0v9hocksm5v544g437.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ultra.teplovision",
+            "certificate_hash": "4f53c743176dcd4138060d9b77f5551b5d655091"
+          }
+        },
+        {
+          "client_id": "398893692027-25adetqlqm1u54i3jop03rlqak76sb6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUn-jVjBmTXPxTJFIbpnFNns_AuA-HAMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398893692027-25adetqlqm1u54i3jop03rlqak76sb6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

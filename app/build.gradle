@@ -20,10 +20,75 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        release {
+            storeFile file('../keystore/keystore.jks')
+            storePassword "password"
+            keyAlias "key_simple"
+            keyPassword "password"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+    flavorDimensions "default"
+    productFlavors {
+        first {
+            dimension "default"
+            applicationId "ru.sem.teplovision"
+            versionName "1.0"
+        }
+        teplovision_pro {
+            dimension "default"
+            applicationId "com.teplovision.pro"
+            versionName "1.0"
+        }
+        teplovision_port {
+            dimension "default"
+            applicationId "com.portable.teplovision"
+            versionName "1.0"
+        }
+        teplovision_hd {
+            dimension "default"
+            applicationId "com.teplovision.hd"
+            versionName "1.0"
+        }
+        teplovision_scan {
+            dimension "default"
+            applicationId "com.scan.teplovision"
+            versionName "1.0"
+        }
+        teplovision_web {
+            dimension "default"
+            applicationId "com.teplovision.web"
+            versionName "1.0"
+        }
+        teplovision_ultra {
+            dimension "default"
+            applicationId "com.ultra.teplovision"
+            versionName "1.0"
+        }
+        teplovision_fk {
+            dimension "default"
+            applicationId "com.teplovision.four.k"
+            versionName "1.0"
+        }
+        teplovision_hot {
+            dimension "default"
+            applicationId "com.hot.teplovision"
+            versionName "1.0"
+        }
+        teplovision_sup {
+            dimension "default"
+            applicationId "com.superior.teplovision"
+            versionName "1.0"
         }
     }
 
@@ -57,7 +122,7 @@ dependencies {
 
     implementation "com.sagar:livedatapermission:$e_perm"
 
-    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    implementation 'com.facebook.android:facebook-android-sdk:5.15.3'
 
     // LiveData & ViewModel
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"

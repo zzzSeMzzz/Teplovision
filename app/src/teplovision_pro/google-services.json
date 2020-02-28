@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276201675933",
+    "firebase_url": "https://teplovision-pro.firebaseio.com",
+    "project_id": "teplovision-pro",
+    "storage_bucket": "teplovision-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276201675933:android:7e124f7d2cbb267499c874",
+        "android_client_info": {
+          "package_name": "com.teplovision.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276201675933-pg0vapjc13ra94amk64aqh9t3971nlae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaF_eAkmMVZnmmrqoz6S17rbLGx_O6iaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276201675933-pg0vapjc13ra94amk64aqh9t3971nlae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

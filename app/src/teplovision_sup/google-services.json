@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "349500668728",
+    "firebase_url": "https://superior-teplovision.firebaseio.com",
+    "project_id": "superior-teplovision",
+    "storage_bucket": "superior-teplovision.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349500668728:android:b5c3340ef8cc4296735fcd",
+        "android_client_info": {
+          "package_name": "com.superior.teplovision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349500668728-u0cak2cje9mic360akavpa0jiaubib42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.superior.teplovision",
+            "certificate_hash": "4f53c743176dcd4138060d9b77f5551b5d655091"
+          }
+        },
+        {
+          "client_id": "349500668728-omav243at3ulanm6d4clrdmg1di18qjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3xuHGMAJnpW5mfZ1M8M4aExSix_wgdG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349500668728-omav243at3ulanm6d4clrdmg1di18qjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
